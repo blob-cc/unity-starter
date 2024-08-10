@@ -1,0 +1,17 @@
+#!/bin/sh
+
+# Run unit tests before committing
+echo "Running unit tests..."
+if ! ./run_tests.sh; then
+    echo "Unit tests failed. Commit aborted."
+    exit 1
+fi
+
+# Check for code formatting
+echo "Checking code format..."
+if ! ./check_format.sh; then
+    echo "Code format issues found. Commit aborted."
+    exit 1
+fi
+
+echo "All checks passed. Proceeding with commit."
