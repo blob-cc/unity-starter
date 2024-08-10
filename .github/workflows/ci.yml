@@ -1,0 +1,31 @@
+name: Unity CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Setup Unity
+      uses: game-ci/unity-builder@v2
+      with:
+        version: 2021.3.4f1
+
+    - name: Run tests
+      run: |
+        /opt/unity/Editor/Unity -runTests -projectPath . -testResults test-results.xml
+
+    - name: Upload Test Results
+      uses: actions/upload-artifact@v2
+      with:
+        name: test-results
+        path: test-results.xml
