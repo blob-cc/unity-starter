@@ -1,0 +1,19 @@
+# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+# Uncomment this line if you have any plugins that require it
+# [Pp]lugins/
+# Auto-generated app configuration files
+[Dd]ebug/
+# Ignore crash reports
+*.stacktrace
+# Ignore Blueprints for versions control
+*.meta
+
+
+.DS_Store
