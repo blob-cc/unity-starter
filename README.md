@@ -1,17 +1,17 @@
 <p align="center">
     <img src="https://github.com/scape-agency/blob.cc/blob/bfe4005975f28f73278ef0ee5cb0b700f5a9d30f/res/logo/logo-07-topaz.png" width="20%" height="20%" alt="CC Logo">
 </p>
-<h1 align='center' style='border-bottom: none;'>Unity</h1>
-<h3 align='center'>Creative Coding Series</h3>
+<h1 align='center' style='border-bottom: none;'>Unity | Template</h1>
+<h3 align='center'>Creative Coding Blobs</h3>
 <br/>
+
+---
 
 # Unity Creative Coding Template
 
 Unity is a powerful game engine and development platform that can also be used for creative coding projects. With a robust set of built-in tools for 3D graphics, physics, and interactivity, Unity provides a solid foundation for creating unique interactive experiences, installations, and virtual environments.
 
-https://unity.com/
-
-
+<https://unity.com/>
 
 This Unity project is a template for creative coding and generative art. It includes a variety of utility scripts, custom data structures, and settings optimized for quick prototyping and development of artistic projects.
 
@@ -24,13 +24,17 @@ This Unity project is a template for creative coding and generative art. It incl
 - **Noise Generators**: Perlin and Simplex noise generators for procedural content creation.
 
 ## Installation
+
 1. Clone this repository:
+
    ```bash
    git clone https://github.com/yourusername/creative-coding-template.git
    ```
+
 2. Open the project in Unity (ensure you are using the recommended Unity version as specified below).
 
 ## Project Structure
+
 - **Assets/**
   - **Scripts/**: Contains all utility scripts and custom data structures.
   - **Shaders/**: Custom shaders and materials.
@@ -39,12 +43,15 @@ This Unity project is a template for creative coding and generative art. It incl
 - **ProjectSettings/**: Unity project settings.
 
 ## Usage
+
 1. Open the scene you want to work in, or create a new one.
 2. Use the scripts provided in the `Scripts/` folder to add functionality to your project.
 3. Customize the settings in `ProjectSettings/` according to your project’s needs.
 
 ## Contributing
+
 Feel free to submit pull requests or open issues to improve this project. Contributions are welcome!
 
 ## License
+
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
