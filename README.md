@@ -1,11 +1,17 @@
-# cc-unity
+<p align="center">
+    <img src="https://github.com/scape-agency/blob.cc/blob/bfe4005975f28f73278ef0ee5cb0b700f5a9d30f/res/logo/logo-07-topaz.png" width="20%" height="20%" alt="CC Logo">
+</p>
+<h1 align='center' style='border-bottom: none;'>Unity</h1>
+<h3 align='center'>Creative Coding Series</h3>
+<br/>
+
+# Unity Creative Coding Template
 
 Unity is a powerful game engine and development platform that can also be used for creative coding projects. With a robust set of built-in tools for 3D graphics, physics, and interactivity, Unity provides a solid foundation for creating unique interactive experiences, installations, and virtual environments.
 
 https://unity.com/
 
 
-# Unity Creative Coding Template
 
 This Unity project is a template for creative coding and generative art. It includes a variety of utility scripts, custom data structures, and settings optimized for quick prototyping and development of artistic projects.
 
