@@ -1,0 +1,36 @@
+using UnityEngine;
+
+public class #SCRIPTNAME# : MonoBehaviour
+{
+    private static #SCRIPTNAME# _instance;
+
+    public static #SCRIPTNAME# Instance
+    {
+        get
+        {
+            if (_instance == null)
+            {
+                _instance = FindObjectOfType<#SCRIPTNAME#>();
+                if (_instance == null)
+                {
+                    GameObject singleton = new GameObject(typeof(#SCRIPTNAME#).Name);
+                    _instance = singleton.AddComponent<#SCRIPTNAME#>();
+                }
+            }
+            return _instance;
+        }
+    }
+
+    void Awake()
+    {
+        if (_instance == null)
+        {
+            _instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+}
