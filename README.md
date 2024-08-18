@@ -1,13 +1,13 @@
 <p align="center">
     <img src="https://github.com/scape-agency/blob.cc/blob/54daa7b589f4294c7858b362013eb57ea525ab4e/res/logo/logo-07-topaz%400.3x.png" width="25%" height="25%" alt="blob.cc Logo">
 </p>
-<h1 align='center' style='border-bottom: none;'>Unity | Template</h1>
+<h1 align='center' style='border-bottom: none;'>Unity | Starter</h1>
 <h3 align='center'>Creative Coding Blobs</h3>
 <br/>
 
 ---
 
-# Unity Creative Coding Template
+# Unity Creative Coding Starter
 
 Unity is a powerful game engine and development platform that can also be used for creative coding projects. With a robust set of built-in tools for 3D graphics, physics, and interactivity, Unity provides a solid foundation for creating unique interactive experiences, installations, and virtual environments.
 
@@ -48,10 +48,11 @@ This Unity project is a template for creative coding and generative art. It incl
 2. Use the scripts provided in the `Scripts/` folder to add functionality to your project.
 3. Customize the settings in `ProjectSettings/` according to your project’s needs.
 
-
 ---
 
 ## Colophon
+
+Made with ❤️ by **[Scape Agency](https://www.scape.agency)**
 
 ### Contributing
 
@@ -60,9 +61,5 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 ### License
 
 This project is licensed under the MIT license. See the [LICENSE](LICENSE) file for details.
-
-### Contact
-
-Swing is developed by [Scape Agency](https://www.scape.agency). For any inquiries or support, please contact us at [info@scape.agency](info@scape.agency).
 
 ---
